@@ -6,39 +6,37 @@ namespace c_sharp_intro
     {
         static void Main(string[] args)
         {  
-            string myString = "This is a string!";
-            // Integer data type is used for whole number (no decimal..)
-            int myInt = 42;
-            // Double data type is used for decimal point number
-            double myDouble = 33.666;
-            //
-            bool myBool = true;
+            Console.WriteLine( true || true);
+            Console.WriteLine( false || true);
+            Console.WriteLine( false || false);
+            
+            Console.WriteLine( true && true);
+            Console.WriteLine( false && true);
+            Console.WriteLine( false && false);
 
-            Console.WriteLine(myInt - 10); //32
+            Console.WriteLine( false == false);
+            Console.WriteLine( true == false);
+            Console.WriteLine( 2.25 == 2.25 );
+            Console.WriteLine( 2.25 == 3.14);
 
-            Console.WriteLine(myInt * 2); //84 
+            Console.WriteLine( 6 > 7 );
+            Console.WriteLine( 10 > 5 );
 
-            Console.WriteLine(myInt / 2); //21
+            Console.WriteLine( 6 < 7 );
+            Console.WriteLine( 10 < 5 );
 
-            Console.WriteLine(myInt % 13);// 3
+            Console.WriteLine( 5 >= 5 );
+            Console.WriteLine( 4 >= 5 );
 
-            Console.WriteLine(myInt + 8); //50
-
-            Console.WriteLine("3" + "3"); //33
-
-            Console.WriteLine(3 + "3"); //33
-
-            Console.WriteLine("3" + 3); //33
-
-            Console.WriteLine(3 + 6 + "3"); //93
-
-            Console.WriteLine("3"+ 6 + 3); //363
-
-            Console.WriteLine( myInt); // 42
+            
+            Console.WriteLine( 7 <= 7 );
+            Console.WriteLine( 10 <= 5 );
 
 
-
-
+            Console.WriteLine( false != false);
+            Console.WriteLine( true != false);
+            Console.WriteLine( 5 != 5);
+            Console.WriteLine( 10 != 5);
 
         }
     }
